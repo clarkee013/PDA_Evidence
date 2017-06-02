@@ -36,7 +36,7 @@ if looper == 10
 else
   puts "looper failed"
   failures = failures + 1
->>> should use += for the last line next to the current +
+>>> should use += for the last line next to the current + second END should be at the end of the incorrectly spelled failrues = failures + 1.
  
   
 if func1(3) == false
