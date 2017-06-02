@@ -53,12 +53,12 @@ else
   puts "func1(3) failed"
   failrues = failures + 1
 end
->>> spelling mistake on failrues should be failures.. 
+>>> spelling mistake on failrues should be failures.
   
 if failures 
   puts "Test Failed"
 else
   puts "Test Passed"
 end
->>> theres no argument for the IF statment 
+>>> theres no argument for the IF statment unless its meant to be apart of the above function then an END at least needs to be moved or added.
 
