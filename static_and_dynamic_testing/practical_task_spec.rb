@@ -15,21 +15,13 @@ class TestPracticalTask < MiniTest::Test
   end
 
   def test_max()
-    assert_equal(3, max())
+    assert_equal(3, max(2,3))
   end
 
   def test_looper()
     assert_equal(10, looper)
   end
 
-  def test_failing()
-    assert_equal("looper passed", failing())
-  end
-
-  def test_func_test()
-    assert_equal("func1(3) passed", func_test())
-  end 
-
-
+  
 
 end # END of CLASS 
